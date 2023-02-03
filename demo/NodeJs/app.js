@@ -12,4 +12,4 @@ app.listen(port, async () => {
 });
 
 //checkStatus
-app.use('/status', async (req, res) => { res.json({ status: 200, data: `Application is Now Live` }) });
+app.use(async (req, res) => { res.json({ status: 200, data: `Application is Now Live` }) });
